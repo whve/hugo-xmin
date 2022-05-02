@@ -37,7 +37,10 @@ menu:
     - name: traits|tags
       url: "tags/"
       weight: 8
-    - name: subscribe
+    - name: author
+      url: "author/"
+      weight: 8
+    - name: subscribe|rss
       url: "index.xml"
 
 params:
