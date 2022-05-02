@@ -13,24 +13,36 @@ permalinks:
 
 menu:
   main:
-    - name: Home
+    - name: summary|home
       url: ""
       weight: 1
-    - name: About
+    - name: abstract|about
       url: "about/"
       weight: 2
-    - name: Categories
-      url: "categories/"
+    - name: blogs
+      url: "blogs/"
       weight: 3
-    - name: Tags
-      url: "tags/"
+    - name: notes
+      url: "notes/"
       weight: 4
-    - name: Subscribe
+    - name: projects
+      url: "projects/"
+      weight: 5
+    - name: 中文
+      url: "chinese/"
+      weight: 6
+    - name: categories|series
+      url: "categories/"
+      weight: 7
+    - name: traits|tags
+      url: "tags/"
+      weight: 8
+    - name: subscribe
       url: "index.xml"
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Zhe Wang](https://) 2022 -- {Year} | [Github](https://github.com/whve) | [Twitter](https://twitter.com/whve6)"
+  footer: "&copy; [Zhe Wang]() 2022 -- {Year} | [Github](https://github.com/whve) | [Twitter](https://twitter.com/whve6)"
 
 markup:
   highlight:
