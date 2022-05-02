@@ -37,9 +37,6 @@ menu:
     - name: traits|tags
       url: "tags/"
       weight: 8
-    - name: slug
-      url: "slug/"
-      weight: 9
     - name: subscribe|rss
       url: "index.xml"
 
