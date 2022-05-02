@@ -23,7 +23,7 @@ menu:
       url: "blogs/"
       weight: 3
     - name: notes
-      url: "note/"
+      url: "notes/"
       weight: 4
     - name: projects
       url: "projects/"
@@ -37,8 +37,8 @@ menu:
     - name: traits|tags
       url: "tags/"
       weight: 8
-    - name: author
-      url: "author/"
+    - name: slug
+      url: "slug/"
       weight: 9
     - name: subscribe|rss
       url: "index.xml"
